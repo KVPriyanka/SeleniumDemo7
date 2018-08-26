@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[TestCase 1]]>
+    </line>
+    <line>
+      <![CDATA[TestCase 4]]>
+    </line>
+    <line>
+      <![CDATA[TestCase 2]]>
+    </line>
+    <line>
+      <![CDATA[TestCase 5]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="162" started-at="2018-08-26T10:09:24Z" finished-at="2018-08-26T10:09:24Z">
+    <groups>
+      <group name="smoke">
+        <method signature="TestE.testCaseOne()[pri:1, instance:Test1.TestE@523884b2]" name="testCaseOne" class="Test1.TestE"/>
+        <method signature="TestE.testCaseTwo()[pri:2, instance:Test1.TestE@523884b2]" name="testCaseTwo" class="Test1.TestE"/>
+        <method signature="TestF.testCaseFive()[pri:2, instance:Test1.TestF@29774679]" name="testCaseFive" class="Test1.TestF"/>
+        <method signature="TestF.testCasefour()[pri:1, instance:Test1.TestF@29774679]" name="testCasefour" class="Test1.TestF"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="162" started-at="2018-08-26T10:09:24Z" finished-at="2018-08-26T10:09:24Z">
+      <class name="Test1.TestE">
+        <test-method status="PASS" signature="testCaseOne()[pri:1, instance:Test1.TestE@523884b2]" name="testCaseOne" duration-ms="32" started-at="2018-08-26T10:09:24Z" finished-at="2018-08-26T10:09:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="testCaseTwo()[pri:2, instance:Test1.TestE@523884b2]" name="testCaseTwo" duration-ms="0" started-at="2018-08-26T10:09:24Z" finished-at="2018-08-26T10:09:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+      </class> <!-- Test1.TestE -->
+      <class name="Test1.TestF">
+        <test-method status="PASS" signature="testCasefour()[pri:1, instance:Test1.TestF@29774679]" name="testCasefour" duration-ms="10" started-at="2018-08-26T10:09:24Z" finished-at="2018-08-26T10:09:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase 4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCasefour -->
+        <test-method status="PASS" signature="testCaseFive()[pri:2, instance:Test1.TestF@29774679]" name="testCaseFive" duration-ms="5" started-at="2018-08-26T10:09:24Z" finished-at="2018-08-26T10:09:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase 5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseFive -->
+      </class> <!-- Test1.TestF -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
