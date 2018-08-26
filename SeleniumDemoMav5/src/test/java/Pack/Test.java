@@ -11,7 +11,7 @@ import org.testng.Reporter;
 
 public class Test {
 	@org.testng.annotations.Test
-	public void test() {
+	public void test1() {
 		Reporter.log("Step1",true);
 		Assert.assertEquals("abc", "abc");
 		Reporter.log("Step2",true);
