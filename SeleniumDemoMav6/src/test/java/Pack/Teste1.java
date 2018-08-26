@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 public class Teste1 {
 	@Test
-	public void test1() {
+	public void test2() {
 		Reporter.log("Step1",true);
 		SoftAssert s=new SoftAssert();
 		s.assertEquals("abc", "abc");
